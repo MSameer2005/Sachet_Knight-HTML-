@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sacket Knight</title>
+    <link rel="icon" type="image/png" href="../Game/IMG/Util/Favicon.png">
+    <style>
+        body {
+            text-align: center;
+            background-color: rgb(20, 20, 20);
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+
+        #title {
+            width: 35%;
+            margin-top: 20%;
+            margin-left: 30%;
+            margin-bottom: 10%;
+            display: block;
+            animation-name: animazione;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes animazione {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            33% {
+                transform: rotate(-3deg);
+            }
+
+            66% {
+                transform: rotate(3deg);
+            }
+
+            100% {
+                transform: rotate(0deg);
+            }
+        }
+
+        button {
+            width: 250px;
+            margin-left: 40%;
+            margin-bottom: 10px;
+            display: block;
+            background-color: rgb(20, 20, 20);
+            color: rgb(250, 0, 0);
+            border: none;
+        }
+
+        button:hover {
+            padding-top: 3px;
+            padding-bottom: 3px;
+            background-color: rgb(0, 0, 0);
+            color: rgb(255, 0, 0);
+        }
+    </style>
+</head>
+
+<body>
+    <img id="title" src="../Intro/IMG/titolo.png">
+    <div id="tasti">
+        <!-- <button><a href="../Game.html"><img src="../Intro/IMG/gioca.png"></a></button> -->
+        <button onclick="openWin()"><img src="../Intro/IMG/gioca.png"></button>
+        <button><a href="../Crediti/Crediti.html"><img src="../Intro/IMG/crediti.png"></a></button>
+        <!-- <button><a href="javascript:self.close()"><img src="../Intro/IMG/esci.png"></a></button> -->
+        <button onclick="closeWin()"><img src="../Intro/IMG/esci.png"></button>
+    </div>
+    <script>
+        let myWindow;
+        function openWin() {
+            myWindow = window.open("../Game/Game.html");
+        }
+        function closeWin() {
+            myWindow.close();
+        }
+       
+    </script>
+</body>
+
+</html>
