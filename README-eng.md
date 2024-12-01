@@ -12,4 +12,4 @@ To start the game, open the `Intro.html` file or simply use the link in the **Sa
 
 ### Contributions and Improvements
 
-If you wish to make improvements to the game, you are welcome to do so. However, we ask that you do not modify the original project. You can upload your modifications to the **Updates** branch.
+If you wish to make improvements to the game, you are welcome to do so. However, we ask that you do not modify the original project.
