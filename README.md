@@ -12,4 +12,4 @@ Per avviare il gioco, apri il file `Intro.html` o semplicemente utilizza il coll
 
 ### Contributi e Miglioramenti
 
-Se desideri apportare miglioramenti al gioco, sei il benvenuto a farlo. Tuttavia, ti chiediamo di non modificare il progetto originale. Puoi caricare le tue modifiche nel branch **Updates**.
+Se desideri apportare miglioramenti al gioco, sei il benvenuto a farlo. Tuttavia, ti chiediamo di non modificare il progetto originale.
