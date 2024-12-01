@@ -9,3 +9,7 @@ In **Sachet Knight**, vesti i panni di un cavaliere intrappolato in un castello 
 ### Come avviare il gioco
 
 Per avviare il gioco, apri il file `Intro.html` o semplicemente utilizza il collegamento presente nella cartella **Sachet Knight**.
+
+### Contributi e Miglioramenti
+
+Se desideri apportare miglioramenti al gioco, sei il benvenuto a farlo. Tuttavia, ti chiediamo di non modificare il progetto originale. Puoi caricare le tue modifiche nel branch **Updates**.
